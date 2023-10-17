@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import NavBar from './Components/NavBar/NavBar';
+import MiComponente from './Components/Pages/Home/Home';
+import IteamListContainer from './Components/IteamListContainer/IteamListContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MiComponente></MiComponente>
+      <NavBar></NavBar>
+      <div className="d-flex flex-column align-items-center mt-4">
+      <h1>
+        <IteamListContainer Saludo="¡Hola," Persona="Profesor y Tutores!" />
+      </h1>
+    </div>
     </div>
   );
 }
