@@ -13,16 +13,16 @@ export const NavBar = () => {
             <Link to={`/category/home`} className="nav-link">Home</Link>
           </li>
           <li className="nav-item">
-            <Link to={`/category/Electronics`} className="nav-link">Faciales</Link>
+            <Link to={`/category/Faciales`} className="nav-link">Faciales</Link>
           </li>
           <li className="nav-item">
-           <Link to={`/category/Jewelery`} className="nav-link">Corporales</Link>
+           <Link to={`/category/Corporales`} className="nav-link">Corporales</Link>
           </li>
           <li className="nav-item">
-            <Link to={`/category/men's-clothing`} className="nav-link">Cosmetría</Link>
+            <Link to={`/category/Cosmetría`} className="nav-link">Cosmetría</Link>
           </li>
           <li className="nav-item">
-            <Link to={`/category/woman's-clothing`} className="nav-link">Masajeadores</Link>
+            <Link to={`/category/Masajeadores`} className="nav-link">Masajeadores</Link>
           </li>
         </ul>
       </div>
