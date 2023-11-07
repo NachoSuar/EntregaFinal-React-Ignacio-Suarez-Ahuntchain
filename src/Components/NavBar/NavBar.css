@@ -1,23 +1,26 @@
 .Navbar{
-    font-family: 'Roboto', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    text-decoration: none;
-    font-size: 22px;
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px; /* Ajusta el valor de margen izquierdo según sea necesario */
 }
+
 .Navbar ul {
-    list-style-type: none; 
-    padding: 0; 
-  }
-  
-  .Navbar ul li {
-    display: inline; 
-    margin-right: 20px; 
-  }
-  
-  .Navbar ul li a {
-    text-decoration: none; 
-    color: black; 
-  }
-  
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.Navbar ul li {
+  display: inline; 
+  margin-right: 20px; 
+}
+
+.Navbar ul li a {
+  text-decoration: none; 
+  color: black; 
+}
