@@ -11,6 +11,6 @@ Fue hecho con tecnologias como Boostrap, React js, Javascript.
 
 - Funcionamiento
 
-![Alt text](Funcionamiento Web.mp4)
+![Alt text](Epcilon.gif)
 
 ¡Muchas Gracias!
