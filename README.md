@@ -9,6 +9,8 @@ Fue hecho con tecnologias como Boostrap, React js, Javascript.
 
 - Video de Ilustracion (Funcionamiento)
 
-![Funcionamiento Web](./Funcionamiento Web.mp4)
+- Funcionamiento
+
+![Alt text](Funcionamiento Web.mp4)
 
 ¡Muchas Gracias!
